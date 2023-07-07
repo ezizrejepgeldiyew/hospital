@@ -26,7 +26,8 @@
                                     <tbody>
                                         @foreach ($citizens as $citizen)
                                             <tr>
-                                                <td>{{ $citizen->name }}</td>
+                                                <td>{{ $citizen->name }}
+                                                </td>
                                                 <td>{{ $citizen->surname }}</td>
                                                 <td>{{ $citizen->middlename }}</td>
                                                 <td>{{ $citizen->location }}</td>
